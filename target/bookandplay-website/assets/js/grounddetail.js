@@ -1032,19 +1032,7 @@ popupdiv.append(label_dots1);
 
 
 
-inputupi=document.createElement("input")
-inputupi.setAttribute("type", "radio");
-inputupi.setAttribute("id", "upi");
-inputupi.setAttribute("name", "pay");
-inputupi.setAttribute("required", true);
-inputupi.setAttribute("value", "upi");
-popupdiv.append(inputupi);
 
-
-label_dots2 = document.createElement("label");
-label_dots2.setAttribute("class", "upi");
-label_dots2.innerText="Upi"
-popupdiv.append(label_dots2);
 
 
 button_no = document.createElement("p");
@@ -1279,7 +1267,7 @@ axios.post(url, requestData)
       Body: `Hi ${userLogin.firstName} Your ground is booked on this ${selectedTimingsArray.join("&selectedTimings=")} on ${bookDate} Your Confirmation code is here ${code} and your order id is Please show the confirmation 7 digit code  on turf entrance to visit`,
     }).then((success) => {
       alert(
-        "Your ground is Booked Congraulation.If you choose upi method upi link will be sent via email you can make the method there and  you will receive a 7 digit code after 5 min show this code when you visit the turf .if you want to cancel the booking cancel within 20 minutes"
+        "Your ground is Booked Congratulations.You will receive a 7 digit code after 5 min show this code when you visit the turf .if you want to cancel the booking cancel within 20 minutes"
       );
     });
 
