@@ -13,6 +13,7 @@ Hi This project was developed using HTML, CSS,JavaScript,Java ,MYSql,Servlet,JDB
 
 ### Utilized Essential Tools and Libraries
 - Axios Library for Ajax Calls
+- Elasticemail for sending emails
 - Flatpickr for Time Picker Functionality
 - SweetAlert for Enhanced User Alerts
 
